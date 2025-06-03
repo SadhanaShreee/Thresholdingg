@@ -19,8 +19,8 @@ To segment the image using global thresholding, adaptive thresholding and Otsu's
 
 ## Program
 ```
-NAME : S.VENGADA KRISHNAN
-REG : 212223110061
+NAME : SADHANA SHREE B
+REG : 212223230177
 ```
 
 ```python
@@ -31,9 +31,9 @@ import matplotlib.pyplot as plt
 import cv2
 # Read the Image and convert to grayscale
 
-image = cv2.imread('flight.jpg',1)
+image = cv2.imread('parrot.jpg',1)
 image = cv2.cvtColor(image,cv2.COLOR_BGR2RGB)
-image_gray = cv2.imread('flight.jpg',0)
+image_gray = cv2.imread('parrot.jpg',0)
 
 # Use Global thresholding to segment the image
 
@@ -78,24 +78,23 @@ for i in range(0,9):
 ## Output
 
 ### Original Image
-<img src = "https://github.com/Adhithyaram29D/Thresholdingg/assets/119393540/39a8caf5-b2c7-44a8-b142-984e3b4c26d4" width= "500">
+
+![image](https://github.com/user-attachments/assets/f4031304-49b6-482c-b2c2-6d9393f6781e)
 
 
 ### Global Thresholding
-<img src = "https://github.com/Adhithyaram29D/Thresholdingg/assets/119393540/f126e047-3483-45d5-91b9-f66391496658" width= "500"><br>
-<img src = "https://github.com/Adhithyaram29D/Thresholdingg/assets/119393540/5848ac1a-8b59-478b-b5c5-01e8b8eb8bdc" width= "500"><br>
-<img src = "https://github.com/Adhithyaram29D/Thresholdingg/assets/119393540/96b86668-e0c2-49db-91d5-d729bcc15c7b" width= "500"><br>
-<img src = "https://github.com/Adhithyaram29D/Thresholdingg/assets/119393540/5544dbc9-94d7-4d0d-b7bd-b2902f987bef" width= "500"><br>
-<img src = "https://github.com/Adhithyaram29D/Thresholdingg/assets/119393540/93d3054f-de8d-4396-a9cb-576cff2df203" width= "500">
+![image](https://github.com/user-attachments/assets/4f8c926c-a0c4-4212-a79a-ca8855816f38)
+![image](https://github.com/user-attachments/assets/ca4486d3-475c-4211-be04-71939202211d)
+![image](https://github.com/user-attachments/assets/bc7bbb83-d65c-49d4-9d29-7203f9213426)
+
+
 
 
 ### Adaptive Thresholding
-<img src = "https://github.com/Adhithyaram29D/Thresholdingg/assets/119393540/ddc800ab-0522-41d0-ac84-4904e8c38d29" width= "500"><br>
-<img src = "https://github.com/Adhithyaram29D/Thresholdingg/assets/119393540/37196d8f-9ebb-454c-806c-00c42da5fe1f" width= "500">
+![image](https://github.com/user-attachments/assets/8fd3e2c7-9e9f-4310-89cb-49d6b481750f)
+![image](https://github.com/user-attachments/assets/8983681a-67f5-4eaa-a7ad-87853bf4117f)
 
 
-### Optimum Global Thesholding using Otsu's Method
-<img src = "https://github.com/Adhithyaram29D/Thresholdingg/assets/119393540/2e725760-03d4-465b-a28e-34616a283309" width= "400">
 
 ## Result
 Thus the images are segmented using global thresholding, adaptive thresholding and optimum global thresholding using python and OpenCV.
